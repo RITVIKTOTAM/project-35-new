@@ -47,11 +47,11 @@ else if(keyDown(RIGHT_ARROW)){
 }
 else if(keyDown(UP_ARROW)){
    parachute1.velocityY = -1;
-    parachute1.scale = parachute1.scale-0.1;
+    parachute1.scale = parachute1.scale-0.01;
 }
 else if(keyDown(DOWN_ARROW)){
   parachute1.velocityY = 1;
-    parachute1.scale = parachute1.scale+0.1;
+    parachute1.scale = parachute1.scale+0.01;
     
 }
 
